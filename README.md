@@ -1,5 +1,5 @@
 # Basemoncoin
-[![N|Solid](http://139.59.81.130/img/cros-logo.png)](https://basemoncoin.com)
+[![N|Solid](https://basemoncoin.com/wp-content/uploads/2022/10/Basemoncoin-logo.png)](https://basemoncoin.com)
 =====================================
 
 https://basemoncoin.com
@@ -7,11 +7,7 @@ https://basemoncoin.com
 What is Basemoncoin?
 ----------------
 
-Basemoncoin is an experimental digital asset currency that enables instantly transfer digital asset as 
-payments to anyone, anywhere in the world. Basemoncoin uses peer-to-peer technology to operate
-with no central authority: managing transactions and issuing money are carried
-out collectively by the network. Basemoncoin Core is the name of open source
-software which enables the use of this currency.
+Basemon(BASE) is the native cryptocurrency that powers the Basemon ecosystem.Basemon is a Blockchain network founded to make digital payment solutions seamless for everyone. It leverages Blockchain technology to facilitate digital payments and aims to revolutionized digital transactions.
 
 License
 -------
@@ -25,19 +21,16 @@ information or see https://opensource.org/licenses/MIT.
 | **Coin Head**               | **Value**        |
 |-----------------------------|------------------|
 | Ticker                      | BASE       |
-| Average Block Time                  | 60 Seconds       |
+| Average Block Time                  | 30 Seconds       |
 | Hashing Algorithm           | SHA-256       |
-| Max Coin Supply             | 21,000,000 BASE |
-| Premine                     | 20,990,000 BASE  |
-| P2P Port                    | 19268   |
-| RPC Port                    | 29268  |
+| Max Coin Supply             | 298,500,000 BASE |
+| Premine                     | 296,200,000 BASE  |
+| P2P Port                    | 15932   |
+| RPC Port                    | 12577  |
 
 ### Reward Distribution
 
 | **Block Height**  | **Reward**          |
 |------------------|------------------|
-| 1 - 100   | 209,900 BASE (premine)   |
-| 101 - 100000100  | 0.0001 BASE   |
-
-
-
+| 1 - 100   | 2,962,000 BASE (premine)   |
+| 101 - 31536100  | 0.07293252 BASE   |
