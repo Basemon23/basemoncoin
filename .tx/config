@@ -1,0 +1,7 @@
+[main]
+host = https://www.transifex.com
+
+[basemoncoin.qt-translation-020x]
+file_filter = src/qt/locale/basemoncoin_<lang>.ts
+source_file = src/qt/locale/basemoncoin_en.ts
+source_lang = en

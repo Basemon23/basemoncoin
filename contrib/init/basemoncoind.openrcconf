@@ -1,0 +1,33 @@
+# /etc/conf.d/basemoncoind: config file for /etc/init.d/basemoncoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/basemoncoin/basemoncoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/basemoncoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/basemoncoind.pid"
+
+# Where to write basemoncoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/basemoncoind"
+
+# User and group to own basemoncoind process
+#BITCOIND_USER="basemoncoin"
+#BITCOIND_GROUP="basemoncoin"
+
+# Path to basemoncoind executable
+#BITCOIND_BIN="/usr/bin/basemoncoind"
+
+# Nice value to run basemoncoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#BITCOIND_OPTS=""
+
+# The timeout in seconds OpenRC will wait for basemoncoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+BITCOIND_SIGTERM_TIMEOUT=600
